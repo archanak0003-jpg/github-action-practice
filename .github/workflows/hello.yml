@@ -11,8 +11,8 @@ on:
 jobs:
   say-hello:
     runs-on: ubuntu-latest
-  steps:
-    - name: Hello to new user
-    run: echo "Hello Dosto"
+    steps:
+      - name: Hello to new user
+        run: echo "Hello Dosto"
 
 #
