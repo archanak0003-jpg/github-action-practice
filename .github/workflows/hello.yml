@@ -1,0 +1,18 @@
+#workflows
+name: Hello
+
+# on tells when the workflows should run(give indentation)
+on: 
+  workflow_dispatch: 
+#jobs
+#should inside the workflow
+#jobs tells what the workflow should do there can be one or more jobs.jobs is an object so need indentation
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+  steps:
+    - name: Hello to new user
+    run: echo "Hello Dosto"
+
+#
